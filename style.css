@@ -518,6 +518,17 @@ body {
 }
 
 .skill-category {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.6s ease-out;
+}
+
+.skill-category.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.skill-category {
   background: var(--light-bg);
   padding: 2rem;
   border-radius: var(--border-radius);

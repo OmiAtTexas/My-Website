@@ -331,12 +331,10 @@ function initializeParticles() {
 
 // Initialize Animations
 function initializeAnimations() {
-    // Add initial styles for cards
     const cards = document.querySelectorAll('.card, .project-card, .cert-card, .skill-category, .timeline-item');
     cards.forEach(card => {
-        card.style.opacity = '0';
-        card.style.transform = 'translateY(30px)';
-        card.style.transition = 'all 0.6s cubic-bezier(0.4, 0, 0.2, 1)';
+        card.style.opacity = '1'; // Changed to 1 so they show up immediately with the section
+        card.style.transform = 'translateY(0)';
     });
 }
 
