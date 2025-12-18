@@ -45,7 +45,7 @@ const observer = new IntersectionObserver((entries) => {
             const cards = entry.target.querySelectorAll('.card, .project-card, .cert-card');
             cards.forEach((card, index) => {
                 setTimeout(() => {
-                    card.style.opacity = '1';
+                    card.style.opacity = '100';
                     card.style.transform = 'translateY(0)';
                 }, index * 100);
             });
@@ -107,7 +107,7 @@ function initializeCounters() {
     const counters = document.querySelectorAll('.stat-number');
 
     counters.forEach(counter => {
-        counter.style.opacity = '0';
+        counter.style.opacity = '100';
         counter.style.transform = 'translateY(20px)';
     });
 }
@@ -120,7 +120,7 @@ function animateCounters() {
         const increment = target / 100;
         let current = 0;
 
-        counter.style.opacity = '1';
+        counter.style.opacity = '100';
         counter.style.transform = 'translateY(0)';
 
         const updateCounter = () => {
@@ -252,7 +252,7 @@ function initializeParticles() {
     canvas.style.height = '100%';
     canvas.style.pointerEvents = 'none';
     canvas.style.zIndex = '-1';
-    canvas.style.opacity = '0.1';
+    canvas.style.opacity = '100';
 
     document.body.appendChild(canvas);
 

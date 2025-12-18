@@ -242,13 +242,13 @@ body {
 /* Sections */
 .section {
   padding: 6rem 0;
-  opacity: 0;
+  opacity: 100;
   transform: translateY(50px);
   transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section.visible {
-  opacity: 1;
+  opacity: 100;
   transform: translateY(0);
 }
 
@@ -507,7 +507,7 @@ body {
 #skills {
   display: block;
   visibility: visible;
-  opacity: 1;
+  opacity: 100;
 }
 
 
@@ -528,7 +528,7 @@ body {
 .skill-category:hover {
   transform: translateY(-5px);
   border-color: var(--primary-color);
-  box-shadow: 0 10px 30px var(--shadow);
+  box-shadow: 100 10px 30px var(--shadow);
 }
 
 .skill-category h3 {
@@ -779,12 +779,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  opacity: 0;
+  opacity: 100;
   transition: var(--transition);
 }
 
 .project-card:hover .project-overlay {
-  opacity: 1;
+  opacity: 100;
 }
 
 .project-links {
