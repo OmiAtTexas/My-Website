@@ -201,22 +201,6 @@ body {
   width: 100%;
 }
 
-.theme-toggle {
-  cursor: pointer;
-  padding: 0.5rem;
-  border-radius: 50%;
-  background: var(--light-bg);
-  color: var(--primary-color);
-  transition: var(--transition);
-  border: none;
-  font-size: 1.2rem;
-}
-
-.theme-toggle:hover {
-  background: var(--primary-color);
-  color: var(--bg-color);
-  transform: scale(1.1);
-}
 
 .mobile-menu-toggle {
   display: none;
@@ -1384,4 +1368,6 @@ footer {
 .project-card:hover .project-img {
     transform: scale(1.1);
 }
+
+
 
