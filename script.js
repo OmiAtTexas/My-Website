@@ -61,12 +61,15 @@ sections.forEach(section => {
 function initializeTypewriter() {
     const typewriterElement = document.querySelector('.typewriter');
     const texts = [
-        "CS Student",
+        "Computer Science Student",
         "Aspiring AI Engineer",
         "Web Developer",
         "UI/UX Designer",
         "Problem Solver",
-        "Tech Enthusiast"
+        "Tech Enthusiast",
+        "Backend Development",
+        "Project Management",
+        "SDE"
     ];
 
     let textIndex = 0;
