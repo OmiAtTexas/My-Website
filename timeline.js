@@ -8,7 +8,7 @@ backButton.addEventListener('click', () => {
 
 // ---------- TIMELINE ENTRIES ----------
 const entries = [
-    { date: "07.28.2006", desc: "Entered the World", link: "" },
+    { date: "07.28.2006", desc: "Entered the World :-)", link: "" },
     { date: "2007 - 2024", desc: "LIFE HAPPEND :D", link: "" },
     { date: "01.08.2026", desc: "added timeline feature to my website rather than writing in dairies :D", link: "" },
     { date: "01.09.2026", desc: "Working on REST API Project (Go Lang) and Learning DBMS", link: "" },
