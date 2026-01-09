@@ -5,10 +5,21 @@ backButton.addEventListener('click', () => {
 });
 
 
+
 // ---------- TIMELINE ENTRIES ----------
 const entries = [
     { date: "07.28.2006", desc: "Entered the World", link: "" },
-    { date: "01.08.2026", desc: "added timeline feature to my website", link: "" },
+    { date: "2007 - 2024", desc: "LIFE HAPPEND :D", link: "" },
+    { date: "08.06.2024", desc: "Landed in The United States with big dreams...", link: "" },
+    { date: "08.22.2024", desc: "Started My Bachelors Degree in Computer Science, Texas Tech University", link: "" },
+    { date: "10.14.2024", desc: "Won First Hackathon!!! - HackWestTX 2024", link: "" },
+    { date: "10.01.2024", desc: "Saw first American Football game", link: "" },
+    { date: "12.10.2024", desc: "Survived the first semester figuring and exploring the university", link: "" },
+    { date: "01.01.2025", desc: "HAPPY NEW YEAR!!!!", link: "" },
+    { date: "01.17.2025", desc: "New Semester Beings", link: "" },
+    { date: "02.14.2025", desc: "Failed Hakcathon - Hacklahoma 2025 (Project Incomplete)", link: "" },
+    { date: "01.08.2026", desc: "added timeline feature to my website rather than writing in dairies :D", link: "" },
+    { date: "01.09.2026", desc: "Working on REST API Project (Go Lang)", link: "" },
 
     // adding my entries here.
 
@@ -94,6 +105,13 @@ function typeLatestContinuous() {
     }
 }
 typeLatestContinuous();
+
+window.addEventListener('load', () => {
+    const latestDiv = document.querySelector('#timeline .entry:last-child');
+    if (latestDiv) {
+        latestDiv.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+});
 
 // ---------- OM'S STANDARD TIME ----------
 function updateTime() {
