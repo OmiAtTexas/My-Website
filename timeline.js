@@ -10,16 +10,8 @@ backButton.addEventListener('click', () => {
 const entries = [
     { date: "07.28.2006", desc: "Entered the World", link: "" },
     { date: "2007 - 2024", desc: "LIFE HAPPEND :D", link: "" },
-    { date: "08.06.2024", desc: "Landed in The United States with big dreams...", link: "" },
-    { date: "08.22.2024", desc: "Started My Bachelors Degree in Computer Science, Texas Tech University", link: "" },
-    { date: "10.14.2024", desc: "Won First Hackathon!!! - HackWestTX 2024", link: "" },
-    { date: "10.01.2024", desc: "Saw first American Football game", link: "" },
-    { date: "12.10.2024", desc: "Survived the first semester figuring and exploring the university", link: "" },
-    { date: "01.01.2025", desc: "HAPPY NEW YEAR!!!!", link: "" },
-    { date: "01.17.2025", desc: "New Semester Beings", link: "" },
-    { date: "02.14.2025", desc: "Failed Hakcathon - Hacklahoma 2025 (Project Incomplete)", link: "" },
     { date: "01.08.2026", desc: "added timeline feature to my website rather than writing in dairies :D", link: "" },
-    { date: "01.09.2026", desc: "Working on REST API Project (Go Lang)", link: "" },
+    { date: "01.09.2026", desc: "Working on REST API Project (Go Lang) and Learning DBMS", link: "" },
 
     // adding my entries here.
 
@@ -87,7 +79,7 @@ function typeLatestContinuous() {
             setTimeout(typeLatestContinuous, 50);
         } else {
             typingForward = false;
-            setTimeout(typeLatestContinuous, 1000);
+            setTimeout(typeLatestContinuous, 5000);
         }
     } else {
         if (charIndex > 0) {
@@ -100,7 +92,7 @@ function typeLatestContinuous() {
             setTimeout(typeLatestContinuous, 30);
         } else {
             typingForward = true;
-            setTimeout(typeLatestContinuous, 500);
+            setTimeout(typeLatestContinuous, 5000);
         }
     }
 }
