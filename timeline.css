@@ -1,0 +1,94 @@
+/* BODY & FONT */
+body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+    /* dark background */
+    color: #fff;
+    font-family: Menlo, Consolas, "Courier New", monospace;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+/* PAGE HEADING */
+#timeline-heading {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: normal;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+/* TIMELINE CONTAINER */
+#timeline {
+    max-width: 700px;
+    margin: 0 auto 100px auto;
+    /* bottom space for fixed time */
+    padding: 0 20px;
+}
+
+/* TIMELINE ENTRY */
+.entry {
+    margin-bottom: 25px;
+}
+
+/* DATE STYLE */
+.entry .date {
+    color: #777;
+    display: block;
+    margin-bottom: 3px;
+}
+
+/* DESCRIPTION STYLE */
+.entry .desc {
+    color: #fff;
+    display: block;
+}
+
+/* LINKS: DOTTED UNDERLINE */
+.entry a {
+    color: #1e90ff;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+}
+
+.entry a:hover {
+    text-decoration-style: solid;
+}
+
+
+/* Back button fixed bottom-right */
+#back-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: transparent;
+    border: 1px solid #1e90ff;
+    color: #1e90ff;
+    padding: 6px 12px;
+    font-family: Menlo, Consolas, "Courier New", monospace;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    z-index: 1000;
+    /* stay above timeline */
+}
+
+#back-button:hover {
+    background: #1e90ff;
+    color: #000;
+}
+
+
+#om-time {
+    position: fixed;
+    bottom: 10px;
+    left: 20px;
+    color: #aaa;
+    font-family: Menlo, Consolas, "Courier New", monospace;
+    font-size: 0.9rem;
+    z-index: 1000;
+}
