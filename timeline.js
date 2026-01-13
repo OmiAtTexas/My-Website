@@ -12,6 +12,9 @@ const entries = [
     { date: "2007 - 2024", desc: "LIFE HAPPEND :D", link: "" },
     { date: "01.08.2026", desc: "added timeline feature to my website rather than writing in dairies :D", link: "" },
     { date: "01.09.2026", desc: "Working on REST API Project (Go Lang) and Learning DBMS", link: "" },
+    { date: "01.10.2026", desc: "Working on REST API Project (Go Lang).", link: "" },
+    { date: "01.11.2026", desc: "Working on REST API Project (Go Lang).", link: "" },
+    { date: "01.12.2026", desc: "REST API Project Completed", link: "" },
 
     // adding my entries here.
 
