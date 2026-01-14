@@ -15,6 +15,7 @@ const entries = [
     { date: "01.10.2026", desc: "Working on REST API Project (Go Lang).", link: "" },
     { date: "01.11.2026", desc: "Working on REST API Project (Go Lang).", link: "" },
     { date: "01.12.2026", desc: "REST API Project Completed", link: "" },
+    { date: "01.13.2026", desc: "Applying Job's", link: "" },
 
     // adding my entries here.
 
