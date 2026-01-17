@@ -18,6 +18,7 @@ const entries = [
     { date: "01.13.2026", desc: "Applying Job's", link: "" },
     { date: "01.14.2026", desc: "Applying jobs in a office enviornment!", link: "" },
     { date: "01.15.2026", desc: "Connecting with people on linkedIn and Working on API Authentication", link: "" },
+    { date: "01.16.2026", desc: "Fixing resume....", link: "" },
 
     // adding my entries here.
 
