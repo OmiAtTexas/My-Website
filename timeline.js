@@ -20,6 +20,10 @@ const entries = [
     { date: "01.15.2026", desc: "Connecting with people on linkedIn and Working on API Authentication", link: "" },
     { date: "01.16.2026", desc: "Fixing resume....", link: "" },
     { date: "01.17.2026", desc: "Flying back to college town 🛫", link: "" },
+    { date: "01.23.2026", desc: "Snow Holiday !!!!!", link: "" },
+    { date: "01.24.2026", desc: "Snow Holiday !!!!!", link: "" },
+    { date: "01.25.2026", desc: "Snow Holiday !!!!!", link: "" },
+    { date: "01.26.2026", desc: "Snow Holiday !!!!!", link: "" },
 
     // adding my entries here.
 
