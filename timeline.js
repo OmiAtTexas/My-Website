@@ -24,6 +24,7 @@ const entries = [
     { date: "01.24.2026", desc: "Snow Holiday !!!!!", link: "" },
     { date: "01.25.2026", desc: "Snow Holiday !!!!!", link: "" },
     { date: "01.26.2026", desc: "Snow Holiday !!!!!", link: "" },
+    { date: "01.26.2026", desc: "Learning Git and Github ", link: "" },
 
     // adding my entries here.
 
