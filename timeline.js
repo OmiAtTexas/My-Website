@@ -27,6 +27,7 @@ const entries = [
     { date: "01.26.2026", desc: "Learning Git and Github ", link: "" },
     { date: "02.04.2026", desc: "Assignments :D", link: "" },
     { date: "02.08.2026", desc: "Studying Data Structures", link: "" },
+    { date: "06.04.2026", desc: "Learning. about RAG chatbots", link: "" },
 
     // adding my entries here.
 
