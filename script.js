@@ -8,7 +8,7 @@ const backToTop = document.getElementById('backToTop');
 const progressBar = document.getElementById('progressBar');
 
 // Initialize
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     initializeAnimations();
     initializeTypewriter();
     initializeCounters();
@@ -69,7 +69,12 @@ function initializeTypewriter() {
         "Tech Enthusiast",
         "Backend Development",
         "Project Management",
-        "SDE"
+        "SDE",
+        "Software Engineering",
+        "AI / ML",
+        "RAG",
+        "API's",
+        "LLM",
     ];
 
     let textIndex = 0;
@@ -558,7 +563,7 @@ function debounce(func, wait) {
 
 function throttle(func, limit) {
     let inThrottle;
-    return function() {
+    return function () {
         const args = arguments;
         const context = this;
         if (!inThrottle) {
