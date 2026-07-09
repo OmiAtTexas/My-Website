@@ -29,6 +29,8 @@ const entries = [
     { date: "02.08.2026", desc: "Studying Data Structures", link: "" },
     { date: "06.04.2026", desc: "Learning about RAG chatbots", link: "" },
     { date: "06.05.2026", desc: "Learning about LLM's", link: "" },
+    { date: "07.06.2026", desc: "Went to Portugal Vs Spain FIFA match @Dallas Stadium", link: "" },
+    { date: "07.09.2026", desc: "updating my website with new project's", link: "" },
 
     // adding my entries here.
 
